@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    
+    padding: 20px;
+    justify-content: space-around;
+    width: 400px;
+    /*  instead of thhis im using short form */
+     margin: 0 auto;
+    text-align: center;
+    background-color:#ddebf8;
+    color: #2b2839 ;
+    border-bottom: 5px solid #d8cefe;
+    font-family: Verdana;
+    animation-name: card;
+    animation-duration: 4s;
+}
+ @keyframes card{
+    from{
+        background-color: #ddebf8;
+        border-bottom: 5px solid #d8cefe;
+    }
+    to{
+        background-color: #ffe0e9 ;
+        border-bottom: 5px solid #ff9ebb;
+    }
+}
+
+body {
+    margin: 20px;
+    font-family: Verdana;
+    /* text-shadow: 2px 2px black; this is the way to add text shadow using css */
+}
+.logo{
+    width: 150px;
+}
+
